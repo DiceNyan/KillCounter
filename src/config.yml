@@ -1,0 +1,11 @@
+#CONFIG
+#Do you want to count passive mobs in the killcounter?
+#ONLY EDIT THIS PART (Also can be done with /passivecount
+count-passive-mobs: false
+# 
+# 
+#--------Please don't edit anything below this line!--------#
+# 
+totalkillcount: 0
+totalmobkillcount: 0
+totalplayerkillcount: 0

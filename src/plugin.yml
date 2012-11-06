@@ -1,0 +1,24 @@
+name: KillCounter
+main: me.gomeow.killcounter.killcounter
+version: 1.0
+description: Shows a killcount of someone!
+website: http://dev.bukkit.org/server-mods/countkills/
+commands:
+  killcount:
+    description: Shows your killcount!
+    permission: killcounter.use
+  passivecount:
+    description: Toggles whether or not to count passive mobs.
+    permission: killcounter.passivecount
+permissions:
+  killcounter.*:
+    description: Gives access to all killcount commands.
+    children:
+      killcounter.use: true
+      killcounter.passivecount: true
+  killcounter.use:
+    description: Lets one see the server killcount.
+    default: true
+  killcounter.passivecount:
+    description: Allows one to change if passive mobs are counted.
+    default: op
