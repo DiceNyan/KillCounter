@@ -2,6 +2,13 @@
 #Do you want to count passive mobs in the killcounter?
 #ONLY EDIT THIS PART (Also can be done with /passivecount
 count-passive-mobs: false
+sql:
+  enable: false
+  ip: '127.0.0.1'
+  port: '1234'
+  database: 'KillCounter'
+  username: 'root'
+  password: 'root'
 # 
 # 
 #--------Please don't edit anything below this line!--------#
